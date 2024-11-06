@@ -1,0 +1,146 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-image: linear-gradient(#00000091, #00000091), url("../imgs/bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header .row .caption p,
+h1 {
+    font-size: 60px;
+}
+
+header .icons ul li {
+    width: 30px;
+}
+
+.about .row .cv .bg-black {
+    transition: .6s !important;
+    font-size: 14px;
+}
+
+.about .row .cv .bg-black:hover {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+    ;
+}
+
+.about .row .cv .bg-white {
+    transition: .6s !important;
+    font-size: 14px;
+}
+
+.about .row .cv .bg-white:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.services .row .card:hover .icon {
+    background-color: black !important;
+    color: white !important;
+}
+
+.services .row .card .icon {
+    width: fit-content;
+    transition: .5s;
+}
+
+.services .row .card i {
+    font-size: 25px;
+}
+
+.portfolio .row .item {
+    overflow: hidden;
+}
+
+.portfolio .row .item:hover .overlay {
+    top: 2%;
+}
+
+.portfolio .row .overlay {
+    width: 90%;
+    height: 96%;
+    top: 100%;
+    left: 5%;
+    background-color: rgba(255, 255, 255, 0.87);
+    transition: .5s;
+}
+
+.portfolio .row .item .icons a {
+    width: fit-content;
+    transition: .5s;
+}
+
+.portfolio .row .item .icons a:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.portfolio .row .item .icons a i {
+    font-size: 13px;
+}
+
+.team .row .card {
+    overflow: hidden;
+}
+
+.team .row .card:hover .layer {
+    top: 1%;
+}
+
+.team .row .card .layer {
+    width: 96%;
+    height: 73%;
+    top: 100%;
+    left: 2%;
+    background-color: rgba(255, 255, 255, 0.87);
+    transition: .5s;
+}
+
+.team .row .card .icons a {
+    width: fit-content;
+    transition: .5s;
+}
+
+.team .row .card .icons a:hover {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+.team .row .card .icons a i {
+    font-size: 22px;
+}
+
+.contact .row .card:hover .icon {
+    background-color: black !important;
+    color: white !important;
+}
+
+.contact .row .card .icon {
+    width: fit-content;
+    transition: .5s;
+}
+
+.contact .row .card i {
+    font-size: 25px;
+}
+
+.contact form .row .btn {
+    transition: .5s;
+}
+
+.contact form .row .btn:hover {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
